@@ -1,0 +1,41 @@
+[
+    {
+        "model": "Product",
+        "data": {
+            "name": "Magic Potion",
+            "description": "Awesome's new revolutionary awesome skin product!",
+            "price": 49.99,
+            "maxPurchase": 3
+        }
+    },
+    {
+        "model": "User",
+        "data": {
+            "firstName": "Test",
+            "lastName": "Tester",
+            "email": "test123@gmail.com",
+            "street1": "1234 Test Sf Ct",
+            "street2": "N/A",
+            "city": "San Francisco",
+            "state": "CA",
+            "zip": "98765",
+            "phone": "999-888-777"
+        }
+    },
+    {
+        "model": "Order",
+        "data": {
+            "userId": 1,
+            "productId": 1,
+            "quantity": 1
+        }
+    },
+    {
+        "model": "Order",
+        "data": {
+            "userId": 1,
+            "productId": 1,
+            "quantity": 1
+        }
+    }
+]
